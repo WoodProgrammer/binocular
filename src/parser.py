@@ -15,3 +15,4 @@ class Parser(object):
             for line in content:
                 if re.search(SERVICE_REGEX, line): #"(?i)Chain" in line:
                     self.chains.append(line)
+        return self.chains
