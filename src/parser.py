@@ -2,7 +2,7 @@ import re
 
 SERVICE_REGEX="Chain KUBE-SVC"
 
-class ServiceChains(object):
+class Parser(object):
 
     def __init__(self):
         self.chains = []
