@@ -1,2 +1,2 @@
 # binocular
-Binocular is a Kubernetes controller that responsible to collect tcpdump for the nodes, pods and specified interfaces for the cluster
+Binocular is basic iptable chain generator and log watcher as well for the each Kubernetes service chains.
